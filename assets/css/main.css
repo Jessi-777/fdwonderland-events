@@ -5,8 +5,8 @@
   --font-default: "Charm", cursive;
   /* --font-default: "Italianno", cursive; */
   /* --font-default: "Charm", cursive; */
-  --font-primary: "Poetsen One", sans-serif; 
-  --font-secondary: "Public Sans", sans-serif;
+  --font-primary: "Charm", cursive; 
+  --font-secondary: "Charm", cursive;
 
 
 }
@@ -1166,6 +1166,7 @@ margin-top: 25px;
   font-size: 18px;
   font-weight: 400;
   margin: 0;
+  color: #8d3029;
   font-family:"Charm", cursive; 
 }
 
@@ -1199,9 +1200,10 @@ margin-top: 25px;
 .menu .tab-content .tab-header h3 {
   font-size: 36px;
   font-weight: 600;
-  font-family:  "Italianno", cursive ;
+  font-family: "Italianno", cursive;
   color: var(--color-primary);
 }
+
 
 .menu .tab-content .menu-item {
   -moz-text-align-last: center;
@@ -1236,6 +1238,92 @@ margin-top: 25px;
   color: var(--color-primary);
 }
 
+
+
+/* Nav Tabs */
+.nav-tabs .nav-link {
+  font-size: 18px;
+  color: #333;
+  padding: 10px 10px;
+  border-radius: 20px;
+  margin: 5px;
+}
+
+.nav-tabs .nav-link.active {
+  /* background-color: #d3a547; Active tab color */
+  color: #fff;
+}
+
+.nav-tabs .nav-link:hover {
+  background-color:  #e0bf7c;
+  color: #fff;
+}
+
+/* Service Items */
+.menu .menu-img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.menu .menu-img:hover {
+  transform: scale(1.05);
+}
+
+
+.menu .ingredients {
+  font-size: 14px;
+  color: #666;
+}
+
+.tab-pane .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.menu-item {
+  padding: 15px;
+  text-align: center;
+}
+
+.menu-item a {
+  display: block;
+}
+
+.menu-item h4 {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+.menu-item h3 {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #333;
+  font-family: "Italianno", cursive; ;
+}
+
+.menu-item .ingredients {
+  font-size: 14px;
+  color: #777;
+}
+
+/* Responsive Styles */
+@media (min-width: 768px) {
+  .menu-item {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+  }
+}
+
+@media (max-width: 767px) {
+  .menu-item {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
 /*--------------------------------------------------------------
 # Testimonials Section
 --------------------------------------------------------------*/
@@ -1489,6 +1577,7 @@ box-shadow:0 10px 25px rgba(0,0,0,0.2);} */
   font-weight: 400;
   /* color: rgba(21, 22, 23, 0.53); */
   color: #d3a547;
+
 }
 
 .team .team-member .member-info p {
