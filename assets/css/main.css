@@ -1667,16 +1667,43 @@ box-shadow:0 10px 25px rgba(0,0,0,0.2);} */
 /*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Contact Section
+--------------------------------------------------------------*/
 .contact .info-item {
-  /* background: #f4f4f4; */
-  box-shadow:0 10px 25px rgba(0,0,0,0.1);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.);
   backdrop-filter: blur(10px);
-  border-radius: 10px;
-  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 1px;
+  /* border: 1px solid rgba(255, 255, 255, 0.2); */
   background: rgba(234, 231, 231, 0.4);
-  backdrop-filter: blur(10px);
-  padding: 30px;
   height: 100%;
+}
+
+.custom-form {
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+  margin: 35px 0 20px 0 !important;
+  border-radius: 1px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(234, 231, 231, 0.4);
+}
+
+.custom-form .form-control {
+  width: 100%; /* Ensure full width */
+  height: 50px; /* Adjust the height as needed */
+  margin-bottom: 15px;
+}
+
+.custom-form textarea.form-control {
+  width: 100%; /* Ensure full width */
+  height: 200px;
+  resize: none; /* Prevent the textarea from being resized */
+}
+
+.custom-form .btn {
+  height: 50px; /* Adjust the button height as needed */
 }
 
 .contact .info-item .icon {
@@ -1687,9 +1714,9 @@ box-shadow:0 10px 25px rgba(0,0,0,0.2);} */
   height: 56px;
   font-size: 24px;
   line-height: 0;
-  color:  #8d3029;
-  background:   #e0bf7c;
-  border-radius: 50%;
+  color: #8d3029;
+  background: #e0bf7c;
+  border-radius: 10%;
   margin-right: 15px;
 }
 
@@ -1698,6 +1725,12 @@ box-shadow:0 10px 25px rgba(0,0,0,0.2);} */
   color: #d3a547;
   font-weight: 700;
   margin: 0 0 5px 0;
+  font-family: "Charm", cursive;
+}
+
+.contact h1 {
+  text-align: center;
+  margin: 35px 0 20px 0 !important;
 }
 
 .contact .info-item p {
@@ -1720,105 +1753,27 @@ box-shadow:0 10px 25px rgba(0,0,0,0.2);} */
   color: #e0bf7c;
 }
 
-/* .contact .php-email-form {
-  width: 100%;
-  margin-top: 30px;
-  background: #fff;
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.08);
-}
-
-.contact .php-email-form .form-group {
-  padding-bottom: 20px;
-}
-
-.contact .php-email-form .error-message {
-  display: none;
-  color: #fff;
-  background: #e09e79;
-  text-align: left;
-  padding: 15px;
-  font-weight: 600;
-}
-
-.contact .php-email-form .error-message br+br {
-  margin-top: 25px;
-}
-
-.contact .php-email-form .sent-message {
-  display: none;
-  color: #fff;
-  background: #059652;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-}
-
-.contact .php-email-form .loading {
-  display: none;
-  background: #fff;
-  text-align: center;
-  padding: 15px;
-}
-
-.contact .php-email-form .loading:before {
-  content: "";
-  display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border: 3px solid #059652;
-  border-top-color: #fff;
-  animation: animate-loading 1s linear infinite;
-}
-
-.contact .php-email-form input,
-.contact .php-email-form textarea {
-  border-radius: 0;
-  box-shadow: none;
-  font-size: 14px;
-}
-
-.contact .php-email-form input:focus,
-.contact .php-email-form textarea:focus {
-  border-color: var(--color-primary);
-}
-
-.contact .php-email-form input {
-  height: 48px;
-} */
-
-/* .contact .php-email-form textarea {
-  padding: 10px 12px;
-} */
-/* .contact-button[type=submit] { */
-
- 
 .contact-button {
-  /* border: 0; */
   padding: 10px;
   margin-top: 50px;
   border-radius: 50px;
   display: flex;
   text-align: center;
-	justify-content: center;
-	align-items: center;
-	background: rgba(255, 255, 255, 0.05);
-	/* box-shadow: 0 15px 15px rgba(0, 0, 0, 0.2); */
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.05);
   box-shadow: 0 20px 20px rgba(0, 0, 0, 0.1);
-	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-	border-top: 1px solid rgba(255, 255, 255, 0.156);
-	background-color: #d3a547;
-	font-weight: 400;
-	z-index: 1;
-	transition: 0.5s;
-	backdrop-filter: blur(23px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.156);
+  background-color: #d3a547;
+  font-weight: 400;
+  z-index: 1;
+  transition: 0.5s;
+  backdrop-filter: blur(23px);
   max-width: 200px;
   cursor: pointer;
-  /* color:#fff */
 }
 
-/* .contact-button[type=submit]:hover */
 .contact-button:hover {
   background: #e0bf7c;
   box-shadow: 0 20px 20px rgba(0, 0, 0, 0.1);
@@ -1828,12 +1783,10 @@ box-shadow:0 10px 25px rgba(0,0,0,0.2);} */
   0% {
     transform: rotate(0deg);
   }
-
   100% {
     transform: rotate(360deg);
   }
 }
-
 
 /*--------------------------------------------------------------
 # Footer
