@@ -2,7 +2,9 @@
 
 /* Fonts */
 :root {
-  --font-default: "Public Sans", sans-serif;
+  --font-default: "Charm", cursive;
+  /* --font-default: "Italianno", cursive; */
+  /* --font-default: "Charm", cursive; */
   --font-primary: "Poetsen One", sans-serif; 
   --font-secondary: "Public Sans", sans-serif;
 
@@ -87,14 +89,16 @@ section {
   /* color: #7f7f90; */
   color: #212529;
   text-transform: uppercase;
-  font-family: var(--font-default);
+  font-family:  "Charm", cursive;
 }
 
 .section-header p {
   margin: 0;
   font-size: 48px;
   font-weight: 100;
-  font-family: var(--font-primary);
+  /* font-family: var(--font-primary); */
+ 
+  font-family: "Italianno", cursive;
 }
 
 .section-header p span {
@@ -120,7 +124,8 @@ section {
   font-weight: 400;
   margin-bottom: 20px;
   color: #333;
-  font-family: var(--font-primary);
+  font-family: "Italianno", cursive;
+  
 }
 
 .hero h2 span {
@@ -131,6 +136,7 @@ section {
   color: #4f4f5a;
   font-weight: 400;
   margin-bottom: 30px;
+  font-size: 17px;
 }
 
 .hero .btn-book-a-table {
@@ -691,8 +697,9 @@ margin-top: 25px;
 }
 
 .about .section-header p {
-  font-size: 36px;
+  font-size: 46px;
   color: #8d3029;
+  font-family: "Italianno", cursive;
   /* align-items: center; */
 
   display: flex;
@@ -714,7 +721,7 @@ margin-top: 25px;
 }
 
 .about .section-header p span {
-  color: var(--color-primary);
+  color: "Charm", cursive;
 }
 
 .about .about-img {
@@ -726,7 +733,7 @@ margin-top: 25px;
 }
 
 .about .content {
-  font-size: 16px;
+  font-size: 17px;
 
   color: #171616;
   align-items: center;
@@ -987,18 +994,22 @@ margin-top: 25px;
   /* background: var(--color-primary); */
   background: #fff;
   color: #161414;
+  
+ 
 }
 
 .why-us .why-box h3 {
-  font-weight: 700;
-  font-size: 34px;
+  /* font-weight: 100; */
+  font-size: 46px;
   margin-bottom: 30px;
+  font-family: "Italianno", cursive;
  
 }
 /* title */
 .why-us .why-box p {
   margin-bottom: 30px;
   color: #6e757b;
+  font-size: 17px;
 }
 
 .why-us .why-box .more-btn {
@@ -1045,16 +1056,17 @@ margin-top: 25px;
 }
 
 .why-us .icon-box h4 {
-  font-size: 20px;
-  font-weight: 400;
+  font-size: 35px;
+  /* font-weight: 400; */
   margin: 0 0 30px 0;
-  font-family: var(--font-default);
+  font-family: "Italianno", cursive; 
   --font-default: "Lato", sans-serif;
 }
 
 .why-us .icon-box p {
   font-size: 15px;
   color: #6c757d;
+  font-size: 17px;
 }
 
 @media (min-width: 1200px) {
@@ -1114,12 +1126,9 @@ margin-top: 25px;
   padding: 10px 5px;
   transition: 0.3s;
   color:  #e0bf7c ;
-  /* color: #8d3029; */
-  /* border-radius: 0; */
   cursor: pointer;
   height: 100%;
   border: 0;
-  /* border-bottom: 2px solid #b6b6bf; */
  
 }
 
@@ -1139,7 +1148,7 @@ margin-top: 25px;
   font-size: 18px;
   font-weight: 400;
   margin: 0;
-  font-family: var(--font-secondary);
+  font-family:"Charm", cursive; 
 }
 
 @media (max-width: 575px) {
@@ -1155,6 +1164,7 @@ margin-top: 25px;
 .menu .nav-link.active {
   color: var(--color-primary);
   border-color: var(--color-primary);
+ 
 }
 
 .menu .tab-content .tab-header {
@@ -1171,6 +1181,7 @@ margin-top: 25px;
 .menu .tab-content .tab-header h3 {
   font-size: 36px;
   font-weight: 600;
+  font-family:  "Italianno", cursive ;
   color: var(--color-primary);
 }
 
@@ -1189,7 +1200,7 @@ margin-top: 25px;
   font-size: 22px;
   font-weight: 500;
   color:#171512;
-  font-family: var(--font-secondary);
+  font-family: "Charm", cursive;
   font-weight: 30px;
   margin-bottom: 5px;
 }
@@ -1246,7 +1257,7 @@ box-shadow:0 10px 25px rgba(0,0,0,0.2);} */
 }
 
 .testimonials .testimonial-item h4 {
-  font-size: 14px;
+  font-size: 17px;
   color: #6c757d;
   margin: 0 0 10px 0;
   font-family: var(--font-secondary);
@@ -1280,6 +1291,9 @@ box-shadow:0 10px 25px rgba(0,0,0,0.2);} */
 
 .testimonials .testimonial-item p {
   font-style: italic;
+  font-family: "Charm", cursive;
+  font-size: 17;
+  color: #000;
 }
 
 .testimonials .swiper-pagination {
@@ -1329,11 +1343,12 @@ box-shadow:0 10px 25px rgba(0,0,0,0.2);} */
 }
 
 .events .event-item h3 {
-  font-size: 24px;
+  font-size: 46px;
   font-weight: 700;
   margin-bottom: 5px;
   color: #fff;
   position: relative;
+  font-family: "Italianno", cursive;
 }
 
 .events .event-item .price {
@@ -1444,10 +1459,10 @@ box-shadow:0 10px 25px rgba(0,0,0,0.2);} */
 }
 
 .team .team-member .member-info h4 {
-  font-weight: 700;
+  font-weight: 400;
   margin-bottom: 5px;
-  font-size: 20px;
-  color: var(--color-secondary);
+  font-size: 36px;
+  font-family: "Italianno", cursive;
 }
 
 .team .team-member .member-info span {
@@ -1460,8 +1475,9 @@ box-shadow:0 10px 25px rgba(0,0,0,0.2);} */
 
 .team .team-member .member-info p {
   font-style: italic;
-  font-size: 14px;
+  font-size: 17px;
   padding-top: 15px;
+  font-family: "Charm", cursive;
   line-height: 26px;
   color: rgba(33, 37, 41, 0.829);
 }
