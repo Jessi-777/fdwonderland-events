@@ -566,6 +566,24 @@ margin-top: 25px;
   }
 }
 
+#google_translate_element {
+  margin: 25px;
+  display: flex;
+  padding: 10px 20px;
+  align-items: center;
+  /* padding: 0; */
+}
+@media (max-width: 768) {
+  nav {
+    flex-direction: column;
+  }
+  #google_translate_element {
+    margin-bottom: 10px;
+  }
+} 
+
+
+
 /*--------------------------------------------------------------
 # Mobile Navigation
 --------------------------------------------------------------*/
