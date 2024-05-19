@@ -81,7 +81,7 @@ section {
 }
 
 .section-header h2 {
-  font-size: 16px;
+  font-size: 17px;
   letter-spacing: 1px;
   font-weight: 100;
   margin: 0;
@@ -136,7 +136,7 @@ section {
   color: #4f4f5a;
   font-weight: 400;
   margin-bottom: 30px;
-  font-size: 17px;
+  font-size: 21px;
 }
 
 .hero .btn-book-a-table {
@@ -343,16 +343,16 @@ section {
 # Header
 --------------------------------------------------------------*/
 .header {
-  background: #fff;
+  background:  #fff ;
   transition: all 0.5s;
   z-index: 997;
-  height: 100px;
+  height: 120px;
   border-bottom: 1px solid #fff;
 }
 
 @media (max-width: 575px) {
   .header {
-    height: 70px;
+    height: 90px;
   }
 }
 
@@ -361,12 +361,10 @@ section {
   border-color: #eee;
 }
 
-.header .logo img {
-  /* max-height: 40px;
-  margin-right: 12px; */
-  width: 100px;
-}
-/* 
+/* .header .logo img { 
+   width: 100%;
+} */
+
 .selected-lang {
   cursor: pointer;
   display: flex;
@@ -393,6 +391,7 @@ margin-top: 25px;
   color: #000;
   margin: 0;
   font-family: var(--font-secondary);
+  
 }
 
 .header .logo h1 span {
@@ -431,6 +430,7 @@ margin-top: 25px;
     display: flex;
     list-style: none;
     align-items: center;
+    
   }
 
   .navbar li {
@@ -444,12 +444,12 @@ margin-top: 25px;
 
   .navbar a,
   .navbar a:focus {
+    font-family:  "Charm", cursive ;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 3px;
-    font-family: var(--font-secondary);
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 600;
     color: #d3a547;
     white-space: nowrap;
@@ -1800,9 +1800,10 @@ box-shadow:0 10px 25px rgba(0,0,0,0.2);} */
 --------------------------------------------------------------*/
 .footer {
   font-size: 14px;
-  background-color: #111111fd;
+  background-color: #11101091;
   padding: 50px 0;
   color: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(20px);
 }
 
 .footer .icon {
@@ -1860,13 +1861,13 @@ box-shadow:0 10px 25px rgba(0,0,0,0.2);} */
   border-radius: 50%;
   border: 1px solid rgba(255, 255, 255, 0.357);
   font-size: 16px;
-  color: #d3a547;
+  color: #e0bf7c;
   margin-right: 10px;
   transition: 0.3s;
 }
 
 .footer .social-links a:hover {
-  color: #d3a547;
+  color: #e0bf7c ;
   border-color:  #8d3029 ;
 }
 
