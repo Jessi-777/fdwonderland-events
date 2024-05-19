@@ -1237,7 +1237,7 @@ box-shadow:0 10px 25px rgba(0,0,0,0.2);} */
 
 .testimonials .testimonial-item .testimonial-content {
   padding-left: 30px;
-  box-shadow:0 10px 25px rgba(0,0,0,0.1);
+  /* box-shadow:0 10px 25px rgba(0,0,0,0.1); */
   /* background-color: #f4f4f3; */
   background-color: #f4f4f3 
 }
