@@ -705,7 +705,6 @@ margin-top: 25px;
 
 .about {
   padding: 60px 0;
-  
 }
 
 .about .section-header h2 {
@@ -732,6 +731,7 @@ margin-top: 25px;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  
 }
 
 .about .section-header .centered-text {
@@ -747,7 +747,7 @@ margin-top: 25px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
   background-size: cover;
   background-position: center;
-  border-radius: 10px;
+  /* border-radius: 10px; */
 }
 
 .about .content {
@@ -951,14 +951,14 @@ margin-top: 25px;
     transform: scale(1.1);
   }
 }
-.why-us {
-  box-shadow:0 10px 25px rgba(0,0,0,0.5);
-}
+/* .why-us {
+  box-shadow:0 10px 25px rgba(0,0,0,0.1);
+} */
 
 /*--------------------------------------------------------------
 # Stats Counter Section
 --------------------------------------------------------------*/
-.stats-counter {
+/* .stats-counter {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/stats-bg.jpg") center center;
   background-size: cover;
   padding: 100px 0;
@@ -989,7 +989,7 @@ margin-top: 25px;
   font-size: 16px;
   font-weight: 700;
   color: rgba(255, 255, 255, 0.6);
-}
+} */
 
 /*--------------------------------------------------------------
 # Menu Section
@@ -1123,7 +1123,7 @@ margin-top: 25px;
 .menu .menu-img {
   width: 100%;
   height: auto;
-  border-radius: 10px;
+  /* border-radius: 10px; */
   transition: transform 0.3s ease-in-out;
 }
 
@@ -1207,9 +1207,11 @@ box-shadow:0 10px 25px rgba(0,0,0,0.2);} */
 }
 
 .testimonials .testimonial-item .testimonial-img {
-  border-radius: 50%;
   border: 3px solid #d3a547;
   margin: 0 auto;
+  background-color: yellow;
+  /* border-radius: 100%; */
+  /* border-radius: 10px; */
 }
 
 .testimonials .testimonial-item h3 {
@@ -1363,7 +1365,6 @@ box-shadow:0 10px 25px rgba(0,0,0,0.2);} */
   overflow: hidden;
   text-align: center;
   justify-content: center;
-  border-radius: 5px;
   background: #fff;
   transition: 0.3s;
 }
@@ -1457,139 +1458,10 @@ box-shadow:0 10px 25px rgba(0,0,0,0.2);} */
 }
 
 /*--------------------------------------------------------------
-# Book A Table Section | Book a Consultion Section
---------------------------------------------------------------*/
-.book-a-table .reservation-img {
-  min-height: 500px;
-  background-size: cover;
-  background-position: center;
-}
-
-.book-a-table .reservation-form-bg {
-  background: rgba(55, 55, 63, 0.04);
-}
-
-.book-a-table .php-email-form {
-  padding: 40px;
-}
-
-@media (max-width: 575px) {
-  .book-a-table .php-email-form {
-    padding: 20px;
-  }
-}
-
-.book-a-table .php-email-form h3 {
-  font-size: 14px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
-
-.book-a-table .php-email-form h4 {
-  font-size: 14px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  margin: 20px 0 0 0;
-}
-
-.book-a-table .php-email-form p {
-  font-size: 14px;
-  margin-bottom: 20px;
-}
-
-.book-a-table .php-email-form .error-message {
-  display: none;
-  color: #fff;
-  background: #df1529;
-  text-align: left;
-  padding: 15px;
-  margin-bottom: 24px;
-  font-weight: 600;
-}
-
-.book-a-table .php-email-form .sent-message {
-  display: none;
-  color: #fff;
-  background: #059652;
-  text-align: center;
-  padding: 15px;
-  margin-bottom: 24px;
-  font-weight: 600;
-}
-
-.book-a-table .php-email-form .loading {
-  display: none;
-  background: #fff;
-  text-align: center;
-  padding: 15px;
-  margin-bottom: 24px;
-}
-
-.book-a-table .php-email-form .loading:before {
-  content: "";
-  display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border: 3px solid #059652;
-  border-top-color: #fff;
-  animation: animate-loading 1s linear infinite;
-}
-
-.book-a-table .php-email-form input,
-.book-a-table .php-email-form textarea {
-  border-radius: 0;
-  box-shadow: none;
-  font-size: 14px;
-  border-radius: 0;
-}
-
-.book-a-table .php-email-form input:focus,
-.book-a-table .php-email-form textarea:focus {
-  border-color: var(--color-primary);
-}
-
-.book-a-table .php-email-form input {
-  padding: 12px 15px;
-}
-
-.book-a-table .php-email-form textarea {
-  padding: 12px 15px;
-}
-
-.book-a-table .php-email-form button[type=submit] {
-  background: var(--color-primary);
-  border: 0;
-  padding: 14px 60px;
-  color: #fff;
-  transition: 0.4s;
-  border-radius: 50px;
-}
-
-.book-a-table .php-email-form button[type=submit]:hover {
-  background: #ec2727;
-}
-
-@keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-/*--------------------------------------------------------------
 # Gallery Section
 --------------------------------------------------------------*/
 .gallery {
   overflow: hidden;
-  
- 
 }
 
 .gallery .swiper-pagination {
@@ -1637,7 +1509,7 @@ box-shadow:0 10px 25px rgba(0,0,0,0.2);} */
 .contact .info-item {
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.);
   backdrop-filter: blur(20px);
-  border-radius: 1px;
+
   /* border: 1px solid rgba(255, 255, 255, 0.2); */
   background: #e0bf7c;
   height: 70%;
@@ -1649,7 +1521,6 @@ box-shadow:0 10px 25px rgba(0,0,0,0.2);} */
   width: 100%;
   text-align: center;
   margin: 35px 0 20px 0 !important;
-  border-radius: 1px;
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.3);
   background: rgba(234, 231, 231, 0.4);
@@ -1658,7 +1529,7 @@ box-shadow:0 10px 25px rgba(0,0,0,0.2);} */
 .custom-form .form-control {
   box-shadow: 0px 7px 5px rgba(93, 22, 22, 0.11);
   width: 100%; /* Ensure full width */
-  height: 70px; /* Adjust the height as needed */
+  height: 70px; 
   margin-bottom: 15px;
 }
 
@@ -1682,7 +1553,7 @@ box-shadow:0 10px 25px rgba(0,0,0,0.2);} */
   line-height: 0;
   color: #8d3029;
   background: #e0bf7c;
-  border-radius: 10%;
+  /* border-radius: 10%; */
   margin-right: 15px;
 }
 
