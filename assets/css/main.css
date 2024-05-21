@@ -1269,8 +1269,8 @@ box-shadow:0 10px 25px rgba(0,0,0,0.2);} */
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
+  width: 10px;
+  height: 10px;
   background-color: #8d3029;
   opacity: 1;
 }
@@ -1471,8 +1471,8 @@ box-shadow:0 10px 25px rgba(0,0,0,0.2);} */
 }
 
 .gallery .swiper-pagination .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
+  width: 10px;
+  height: 10px;
   background-color: #e0bf7c;
   opacity: 1;
 }
