@@ -1360,6 +1360,16 @@ box-shadow:0 10px 25px rgba(0,0,0,0.2);} */
 /*--------------------------------------------------------------
 # Team Section
 --------------------------------------------------------------*/
+.section-header {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.team .section-header p span{ 
+  margin-right: 20px;
+  margin-left: 10px;
+}
+
 .team .team-member {
   box-shadow:0 10px 25px rgba(0,0,0,0.1);
   overflow: hidden;
