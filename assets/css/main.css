@@ -17,11 +17,6 @@
   --color-primary: #d3a547;
   --color-secondary: #212529;
 }
-/* font: #212529;       #black  */
-/* burgundy: #8d3029 */
-/* gold: #d3a547 */
-/* golden-light: #e0bf7c */
-/* background-white: #f4f4f3 */
 
 /* Smooth scroll behavior */
 :root {
@@ -361,9 +356,6 @@ section {
   border-color: #eee;
 }
 
-/* .header .logo img { 
-   width: 100%;
-} */
 
 .selected-lang {
   cursor: pointer;
@@ -951,9 +943,6 @@ margin-top: 25px;
     transform: scale(1.1);
   }
 }
-/* .why-us {
-  box-shadow:0 10px 25px rgba(0,0,0,0.1);
-} */
 
 /*--------------------------------------------------------------
 # Stats Counter Section
